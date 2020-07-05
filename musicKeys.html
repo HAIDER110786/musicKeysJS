@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Keys</title>
+    <link rel="stylesheet" href="CSS/musicKeys.css">
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="instructions">
+            <div>
+                <b>NOTE:</b>
+                Press the First letter of the animal to hear its sound. For e.g. 
+                h for HYENA or just click on the box to hear the sound of the corresponding animal
+            </div>
+        </div>
+        <div data-key="72" class="key">HYENA</div>
+        <div data-key="70" class="key">FOX</div>
+        <div data-key="66" class="key">BABOON</div>
+        <div data-key="87" class="key">Wolf</div>
+
+        <audio data-key="72" src="sounds/hyena.wav"></audio>
+        <audio data-key="70" src="sounds/fox.wav"></audio>
+        <audio data-key="66" src="sounds/baboon.wav"></audio>
+        <audio data-key="87" src="sounds/wolf.wav"></audio>
+    </div>
+    <script src="JS/musicKeys.js"></script>
+</body>
+</html>
